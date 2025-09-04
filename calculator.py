@@ -34,6 +34,6 @@ if choice in ('1', '2', '3', '4'):
         elif choice == '3':
             print("Result:", multiply(num1, num2))
         elif choice == '4':
-            print("Result:", divide(num2, num1))  # 🔥 Intentional bug: swapped operands
+            print("Result:", divide(num1, num2))  # 🔥 Intentional bug: swapped operands
 else:
     print("Invalid choice")
